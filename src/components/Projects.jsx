@@ -21,7 +21,7 @@ function Projects() {
             transition={{ duration: 0.5 }}
             whileHover={{ scale: 1.05 }}
             key={project.id}
-            className='relative overflow-hidden rounded-xl'
+            className='relative overflow-hidden rounded-xl group'
           >
             <motion.img
               whileHover={{ scale: 1.1 }}
@@ -33,7 +33,7 @@ function Projects() {
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100 hover:opacity-100'
+              className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100'
             >
               <h3 className='mb-2 text-xl'>{project.name}</h3>
               <p className='mb-12 p-4'>{project.description}</p>
