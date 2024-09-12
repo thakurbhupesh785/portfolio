@@ -26,7 +26,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    link: "",
+    link: "https://bhupeshkumar07.netlify.app",
   },
   {
     id: 2,
