@@ -41,7 +41,7 @@ function Hero() {
               download
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white font-semibold py-2 px-4 rounded-md shadow-lg hover:from-green-500 hover:via-blue-600 hover:to-purple-700 transition-colors"
+              className="mb-10 inline-block bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white font-semibold py-2 px-4 rounded-md shadow-lg hover:from-green-500 hover:via-blue-600 hover:to-purple-700 transition-colors"
               variants={container(1.4)}
               initial='hidden'
               animate='visible'
