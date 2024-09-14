@@ -37,8 +37,7 @@ function Hero() {
            </motion.p>
 
            <motion.a
-              href="https://drive.google.com/file/d/1rtMvqaQOn-Nh0zHbcWfpnjM6OWdkZZnj/view?usp=drivesdk" 
-              download
+              href="https://drive.google.com/drive/folders/1zPHpqxR544SeaMDCRO51lU9HFCL0jpLF"
               target="_blank"
               rel="noopener noreferrer"
               className="mb-10 inline-block bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white font-semibold py-2 px-4 rounded-md shadow-lg hover:from-green-500 hover:via-blue-600 hover:to-purple-700 transition-colors"
